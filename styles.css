@@ -15,3 +15,29 @@ div > a{
     margin: 20px;
 }
 
+
+div > p{
+    text-align: center;
+    color: deeppink;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+    font-size: 20px;
+}
+
+ ul > li{
+    text-align: left;
+    color: darkred;
+    font-family: 'Times New Roman', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+
+div > h2{
+    text-align: left;
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+
+p > h3{
+    text-align: left;
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
