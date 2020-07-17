@@ -1,2 +1,2 @@
 # html-and-css-cheat-sheet
-Code differently demo
+Code differently cheatsheet website
