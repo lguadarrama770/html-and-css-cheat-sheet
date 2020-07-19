@@ -55,9 +55,18 @@ p > h3 {
 }
 
 hr {
-border: 3px solid green;
+border-top: 3px solid blueviolet;
   border-radius: 95px;
 }
 
 .all {
-    border: 1px dotted red;
+    border: 1px dotted palevioletred;
+}
+
+.indenting {
+    text-indent: 50px;
+}
+
+.indent {
+    text-indent: 50px;
+}
