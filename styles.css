@@ -14,11 +14,11 @@ img {
     border: 4px solid deeppink;
   }
   
-div > h1{
+div > h1 {
     border: 5 px dashed lightcoral;
 }
 
-div > a{
+div > a {
    
     text-align: center;
     width: 200px;
@@ -28,28 +28,36 @@ div > a{
 }
 
 
-div > p{
+div > p {
     text-align: center;
     color: lightcoral;
     font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
     font-size: 20px;
 }
 
- ul > li{
+ ul > li {
     text-align: left;
     color: deeppink;
     font-family: 'Times New Roman', 'Lucida Sans Regular', Verdana, sans-serif;
 }
 
-div > h2{
+div > h2 {
     text-align: left;
     color: darkslateblue;
     font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
 }
 
-p > h3{
+p > h3 {
     text-align: left;
     color: darkslateblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+hr {
+border: 3px solid green;
+  border-radius: 95px;
+}
+
+.all {
+    border: 1px dotted red;

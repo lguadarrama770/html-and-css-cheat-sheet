@@ -14,15 +14,15 @@
 
            <a href="index.html"> BACK </a>
     
-         <div>
+    <div>
                <h2> What is CSS? </h2>
-        </div>
+    </div>
 
-           <div>
+    <div>
             <p class="Intro" style="text-align: left;"> CSS stands for Cascading StyleSheet. This allows developers to create rules that specify how the content of an HTML element should appear on the web page.
             CSS is used to define styles for web pages, including design, layout and variations in display for different devices and screen sizes. It allows HTML to be more content focused by removing the style formatting from HTML page and it also saves a lot of work
         </p>
-           </div>
+    </div>
 
            <ul>
             <li> <a href="#syntax">CSS SYNTAX</a> </li>
@@ -31,10 +31,10 @@
             <li> <a href="#box_model">CSS BOX MODEL</a> </li>
             </ul>
 
-        <div>
+    <div>
 
             <h2 id="syntax">CSS Syntax-</h2>
-        <img src="https://lh3.googleusercontent.com/proxy/7RGNlRcXkAQTirM2yu8hcm2lGUgfxSc5AFE7x4DoHVpzuQKgEJtbogD54q01HJOnMkFZPfmlxt91lFChPBCvirVE9sSUKEpiSR-8XK-uLQOW4uQ" alt="css syntax" style="width: 300px;">
+        <img src="https://lh3.googleusercontent.com/proxy/7RGNlRcXkAQTirM2yu8hcm2lGUgfxSc5AFE7x4DoHVpzuQKgEJtbogD54q01HJOnMkFZPfmlxt91lFChPBCvirVE9sSUKEpiSR-8XK-uLQOW4uQ" alt="css syntax" style="width: 400px;">
         
         <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';"> CSS works by connecting rules with HTML elements. 
             These rules dictate how the content is displayed by the browser. A single CSS rule is indicated by the opening and closing curly braces {} and contains 2 parts
@@ -47,7 +47,7 @@
             </li>
         </ul>
       
-        </div> 
+    </div> 
         
         
     <div>
@@ -56,30 +56,68 @@
         <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';"> Selectors allow you to target or select specific HTML elements and add style. SELECTORS ARE CASE SENSITIVE. <br> There are various types of selectors:</h2>
     
     <ul> 
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> ELEMENT SELECTORS select HTML elements based on their element name.</li>        
-    <img src="https://lh5.googleusercontent.com/g2IxN4Jx4cHxWAkuYQrHogJO5X2tTLbtSGOnIXNUiYz697UYBO7bVd79E-y-uYwoQTOevUFnYaqoV_iVSYXCdRQIg1CwogICFlhI5WAV" alt="element selectors">
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> CLASS SELECTORS match an element/elements whose class attribute has a value that matches. When using a class selector in CSS, a period (.) must be placed before the class of the element. 
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>ELEMENT SELECTORS</b> select HTML elements based on their element name.</li>        
+        <img src="https://lh5.googleusercontent.com/g2IxN4Jx4cHxWAkuYQrHogJO5X2tTLbtSGOnIXNUiYz697UYBO7bVd79E-y-uYwoQTOevUFnYaqoV_iVSYXCdRQIg1CwogICFlhI5WAV" alt="element selectors">
+    </ul>
+    <hr class="all" width="65%" />
+    <ul>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>CLASS SELECTORS</b> match an element/elements whose class attribute has a value that matches. When using a class selector in CSS, a period (.) must be placed before the class of the element. 
             An HTML element can have more than one class. Also, more than one element can have the same class value.</li>
-    <img src="https://lh5.googleusercontent.com/X6aDgrnMgJphtspmroIjrQjmsMuOFuBRXxFpf8EY6mFiCWF5swPj8VjVJMGp52omCeqOYAz_sHcWNBco0xZ2WDT7ohqoI_t7DjD-jSdl" alt="class selesctors">
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> ID SELECTORS use the id attribute to select specific elements. When selecting an HTML element with an id, a hashtag ( # ) is placed before the element. 
+        <img src="https://lh5.googleusercontent.com/X6aDgrnMgJphtspmroIjrQjmsMuOFuBRXxFpf8EY6mFiCWF5swPj8VjVJMGp52omCeqOYAz_sHcWNBco0xZ2WDT7ohqoI_t7DjD-jSdl" alt="class selesctors">
+    </ul>        
+    <hr class="all" width="65%" />
+    <ul>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>ID SELECTORS</b> use the id attribute to select specific elements. When selecting an HTML element with an id, a hashtag ( # ) is placed before the element. 
             IDs are unique and can only be used one HTML element.</li>
-    <img src="https://lh5.googleusercontent.com/1UgYnC9erDC_Y716nR5Z9UKfIw5weg7e8npgFOlXNr_j78LqEdLU0lW7JH06t7UpSK3QSIs7Wjq-qZsEcUO5tcCG15wZlSLs4kazevAI" alt="id selectors">
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> UNIVERSAL SELECTOR uses an asterisk ( * ), targeting all HTML elements on the page.</li>
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> CHILD SELECTORS match the element that is a direct child of another element. Child selectors target elements that are the children of another element but not other elements on the page.</li>
-        <li style="text-align: left; font-family: Arial; color: lightcoral;"> DESCENDANT SELECTORS match the element that is a descendant of another specified element. A space between the elements denotes ancestor/descendant relationship.</li>
+        <img src="https://lh5.googleusercontent.com/1UgYnC9erDC_Y716nR5Z9UKfIw5weg7e8npgFOlXNr_j78LqEdLU0lW7JH06t7UpSK3QSIs7Wjq-qZsEcUO5tcCG15wZlSLs4kazevAI" alt="id selectors">
+    </ul>       
+    <hr class="all" width="65%" />    
+    <ul>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>UNIVERSAL SELECTOR</b> uses an asterisk ( * ), targeting all HTML elements on the page.</li>
+        <img src="https://lh3.googleusercontent.com/GvV7utdWlHzS3ylor3vtxc9Zjir6v36iw1hXiEDepL_81N6Mn8u2N_ZsYVxcKcDzAq57HsVKyPQm11WimItDcNGTGhCbMYI7zw4-fMEz" alt="universal selector">
+    </ul>        
+    <hr class="all" width="65%" />    
+    <ul>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>CHILD SELECTORS</b> match the element that is a direct child of another element. Child selectors target elements that are the children of another element but not other elements on the page.</li>
+        <img src="https://lh3.googleusercontent.com/QPAzbcCx1wY4RHmJBVQqzP8CtU6NVOaMtGHZWK8mLrBQ4fTjtmRV68BpaggJ7XD8aJd2VsMVR4jFxmvS5UrUNqa6HF8jS1eQfzJMby_6" alt="child selector">
+    </ul>
+    <hr class="all" width="65%" />
+    <ul>    
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> <b>DESCENDANT SELECTORS</b> match the element that is a descendant of another specified element. A space between the elements denotes ancestor/descendant relationship.</li>
+        <img src="https://lh6.googleusercontent.com/dvepIOp23X7LB8wlLS3G7B9e5RMuZUyovGMCIMOCHIy3_evV-h0Zpk5pOhxWpgOjUmtWpMuVMyJC2zjJHzBtNGPXrrpzqDYG_sEvcIjh" alt="descendant selector">
     </ul>
 
     </div>
         
+    <hr class="dotted" width="65%"/>
 
-        <div>
+    <div>
             <h2 id="stylesheets">Stylesheets-</h2>
-        </div>
+            <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">There are three ways CSS can be applied to HTML documents:</h2>
+    
+        <ul>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>EXTERNAL STYLESHEETS-</b><br>
+            
+            </li>
+
+
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>INTERNAL STYLESHEETS-</b><br>
+            
+            </li>
+
+
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>INLINE STYLESHEETS-</b><br>
+            
+            </li>
+
+
+        </ul>
+    </div>
         
 
-        <div>
+    <div>
             <h2 id="box_model">CSS Box Model-</h2>
-        </div>
+    </div>
 
 
         </body>
