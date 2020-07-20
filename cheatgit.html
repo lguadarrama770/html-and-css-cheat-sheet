@@ -15,8 +15,84 @@
            <a href="index.html"> BACK </a>
     
            <div>
-               <h2> Description </h2>
+               <h2> What is Git? </h2>
            </div>
+
+        <div>
+        <img class="git" src="https://cdn.iconscout.com/icon/free/png-256/git-16-1175195.png" alt="git icon">
+            <p class="Intro" style="text-align: left;"> Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. 
+                It is primarily used for software development, but can be used to keep track of changes in any files.</p>
+        </div>
+
+    <div>        
+        <ul>
+            <li> <a href="#git_concepts">BASIC GIT CONCEPTS</a> </li>
+            <li> <a href="#git_commands">GIT COMMANDS TO KNOW</a> </li>
+        </ul>
+    </div>
+
+    <div>
+        <h2 id="git_concepts">Basic Git Concepts-</h2>
+
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';"> Repository:</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;">The overall package or project. 
+            There is typically a remote of origin repository, and a local copy of it at certain time on your local machine</li>
+        
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Branch</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;">An extension of a repository. All repositories, or repos, start with a `master` branch. 
+                From there, new branches can be created and used for new features. The idea is to keep the master branch clean and working for the final "done" project. </li>
+
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';"> Commit:</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"> A commit is a change to the repository. 
+                For every commit made, there is a record of the state of the repository at that given point in time.</li>
+    </div>
+
+    <div>
+        <h2 id="syntax">Git Commands To Know-</h2>
+
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Changing directories and displaying list of files</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>cd (change directory):</b> Changes the directory or folder</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>cd ~:</b> will take you to the home directory</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>cd ..:</b> moves up one directory</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>ls:</b> lists the files or directories</li>  
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Creating local repository and clone project</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git init:</b> Creates a new local repository in the current directory</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git clone:</b></li>
+            <div class="indenting">
+                <li style="text-align: left; font-family: Arial; color: plum;">Clones a repository from a remote resource (GitHub, Bitbucket, etc.)</li>
+                <li style="text-align: left; font-family: Arial; color: plum;">Creates a directory inside the current directory, and puts the project in there</li>
+            </div>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Creating a branch and switching branches. Also view all branches</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git checkout -b {branch name}:</b> shorthand command to create and switch to a new branch</li>
+            <div class="indenting">
+                <li style="text-align: left; font-family: Arial; color: plum;">git branch {branch name}: creates a new branch</li>
+                <li style="text-align: left; font-family: Arial; color: plum;">git checkout {branch name}: switches to the branch</li>
+                <li style="text-align: left; font-family: Arial; color: plum;">git branch -a: displays all branches, both local and remote, that are available</li>
+            </div>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Checking the status of a repository</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git status:</b> (RUN A LOT)</li>
+            <div class="indenting">
+                <li style="text-align: left; font-family: Arial; color: plum;">Tells what files have been added, deleted, and modified</li>
+                <li style="text-align: left; font-family: Arial; color: plum;">Informs if the local branch is behind the remote version or if the version is ahead of the remote repository</li>
+            </div>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Adding a file, directory, or othe</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git add {file, directory, or, other}:</b> stages the changes to be committed</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git branch .:</b> Stages all changes from the directory</li>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Committing changes to the repository</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git commit -m”(commit message)”:</b> This commits the added changes locally and attaches the commit message to the commit</li>
+            <div class="indenting">
+                <li style="text-align: left; font-family: Arial; color: plum;">Commit messages should be short but descriptive of all the changes made</li>
+                <li style="text-align: left; font-family: Arial; color: plum;">Committing does not push changes to the remote repository.</li>
+            </div>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Sending commits to the repository</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git push:</b> Takes the locally committed changes for a given branch and applies them to the local version</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>git push -u origin {branch name}:</b> This command is used for pushing to the remote repository with the specific branch name</li>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Pulling from a repository</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;">git pull -- Takes the changes made to the remote repository and applies them to the local version</li>
+        <h2 style=" text-align: left; font-size: 20px; color: deeppink; font-family: 'Times New Roman';">Creating directories and delete</h2>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b>mkdir</b> &lt;folder name&gt;</li>
+            <li style="text-align: left; font-family: Arial; color: lightcoral;"><b> rmdir &lt;folder name&gt;</li>
+    </div>
 
         </body>
     </html>

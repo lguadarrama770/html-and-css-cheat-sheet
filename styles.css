@@ -70,3 +70,7 @@ border-top: 3px solid blueviolet;
 .indent {
     text-indent: 50px;
 }
+
+.git {
+    width: 200px;
+}
