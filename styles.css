@@ -1,6 +1,6 @@
 *{
     text-align: center;
-    color: blueviolet;
+    color: black;
     font-family: Verdana, Tahoma, sans-serif;
 }
 body {
@@ -15,14 +15,14 @@ img {
   }
   
 div > h1 {
-    border: 5 px dashed lightcoral;
+    border: 5 px dashed black;
 }
 
 div > a {
    
     text-align: center;
     width: 200px;
-    border: 4px dotted plum;
+    border: 4px dotted black;
     padding: 20px;  
     margin: 20px;
 }
@@ -30,7 +30,7 @@ div > a {
 
 div > p {
     text-align: center;
-    color: lightcoral;
+    color: blue;
     font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
     font-size: 20px;
 }
@@ -73,4 +73,58 @@ border-top: 3px solid blueviolet;
 
 .git {
     width: 200px;
+    background-image: url('https://cdn.lowgif.com/small/842a2332bfb2cb5b-dynamic-wallpapers-for-iphone-5s-high-quality-high-definition.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 8px;
+    background-size: 100%; 
+}
+
+.index {
+    background-image: url('https://lh3.googleusercontent.com/proxy/SciVu3LlleIpPWHdgelSaC8N2JBTmKR0Exri6ADoaiU3EKRDDlttPwSMKmsCbOgpINaoTNyZ');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%}  
+
+.html {
+    background-image: url('https://img.cinemablend.com/filter:scale/quill/5/9/1/3/3/b/59133b62f9e744d0f1b82e9869931e5c6d9da800.jpg?mw=600');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 8px;
+    background-size: 100%;
+    padding: 5px;
+    margin-top: 50px;
+    border: 4px solid deeppink;
+
+}
+
+
+.css {
+    background-image: url('https://pmctvline2.files.wordpress.com/2020/03/the-office-cold-opens-costume-contest.jpg?w=620');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 5px solid #555;
+    background-position: center;
+    background-size: 100% 100%;
+}  
+
+.gitting {
+    background-image: url('https://www.lifeandstylemag.com/wp-content/uploads/2015/11/the-office-prank-11.jpg?fit=640%2C360');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 8px;
+    background-size: 100%;  
+}
+
+.shortcuts {
+  background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=612&h=408&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2013%2F05%2Fthe-office_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 5px solid #555;
+  background-position: center;
+  background-size: cover; 
+}
+
+a {
+color: blueviolet;
 }
